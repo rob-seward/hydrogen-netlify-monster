@@ -23,7 +23,7 @@ export function PageHeader({
     <header {...props} className={styles}>
       {heading && (
         <Heading as="h1" width="narrow" size="heading" className="inline-block">
-          {heading}
+          Monster Pages Headers Go Here
         </Heading>
       )}
       {children}

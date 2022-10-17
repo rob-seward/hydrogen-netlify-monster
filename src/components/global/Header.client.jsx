@@ -105,7 +105,7 @@ function MobileHeader({countryCode, title, isHome, openCart, openMenu}) {
         to="/"
       >
         <Heading className="font-bold text-center" as={isHome ? 'h1' : 'h2'}>
-          {title}
+          Monster Pages here
         </Heading>
       </Link>
 
