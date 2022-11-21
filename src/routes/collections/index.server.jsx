@@ -10,8 +10,10 @@ export default function Collections() {
     <Layout>
       <Seo type="page" data={{title: 'All Collections'}} />
       <PageHeader heading="Collections" />
+      
       <Section>
         <Suspense>
+         
           <CollectionGrid />
         </Suspense>
       </Section>

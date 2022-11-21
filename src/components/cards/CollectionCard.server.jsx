@@ -23,7 +23,9 @@ export function CollectionCard({collection, loading}) {
       </div>
       <Heading as="h3" size="copy">
         {collection.title}
+       
       </Heading>
+      
     </Link>
   );
 }

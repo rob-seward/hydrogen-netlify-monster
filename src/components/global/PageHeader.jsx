@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 
 import {Heading} from '~/components';
+import { CollectionBanner } from '~/components';
 
 export function PageHeader({
   children,
@@ -23,7 +24,7 @@ export function PageHeader({
     <header {...props} className={styles}>
       {heading && (
         <Heading as="h1" width="narrow" size="heading" className="inline-block">
-          Monster Pages Headers Go Here
+         {heading}
         </Heading>
       )}
       {children}

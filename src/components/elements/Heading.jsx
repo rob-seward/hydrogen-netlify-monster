@@ -32,6 +32,7 @@ export function Heading({
   );
 
   return (
+    
     <Component {...props} className={styles}>
       {format ? formatText(children) : children}
     </Component>

@@ -77,6 +77,7 @@ export function ProductGrid({url, collection}) {
   return (
     <>
       <Grid layout="products">
+       
         {products.map((product, i) => (
           <ProductCard
             key={product.id}

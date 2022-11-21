@@ -1,3 +1,4 @@
+
 import {Suspense} from 'react';
 import {
   CacheLong,
@@ -11,13 +12,11 @@ import {
 
 import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
 import {getHeroPlaceholder} from '~/lib/placeholders';
-import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, HomeNYBanner, HomeGeInSplitBanner} from '~/components';
-import {FooterBanner} from '~/components/global';
+import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, CollectionBanner, OpeningTimes } from '~/components';
 
 import {Layout, ProductSwimlane} from '~/components/index.server';
-import { HomeGetInSplitBanner } from '../components/index';
 
-export default function Homepage() {
+export default function OpeningTimesPage() {
   useServerAnalytics({
     shopify: {
       pageType: ShopifyAnalyticsConstants.pageType.home,
@@ -30,13 +29,13 @@ export default function Homepage() {
         <SeoForHomepage />
       </Suspense>
       <Suspense>
-        <HomepageContent />
+        <OpeningTimesContent />
       </Suspense>
     </Layout>
   );
 }
 
-function HomepageContent() {
+function OpeningTimesContent() {
   const {
     language: {isoCode: languageCode},
     country: {isoCode: countryCode},
@@ -60,26 +59,10 @@ function HomepageContent() {
 
   return (
     <>
-   <HomeNYBanner />
-   <StrapLine />
-    <HomeSplitBanner top loading="eager"/>
+   <OpeningTimes />
   
-    
-    
-   
-    
-      
-        <FeaturedCollections
-        data={featuredCollections.nodes}
-        title="Collections"
-      />
-      <SelectionBoxes />
-      <HomeGetInSplitBanner />
-      <ProductSwimlane
-        data={featuredProducts.nodes}
-        title="Featured Products"
-        divider="bottom"
-      />
+    <StrapLine />
+     
       
     
       
@@ -130,7 +113,7 @@ const HOMEPAGE_CONTENT_QUERY = gql`
   query homepage($country: CountryCode, $language: LanguageCode)
   @inContext(country: $country, language: $language) {
     heroBanners: collections(
-      first: 6
+      first: 4
       query: "collection_type:custom"
       sortKey: UPDATED_AT
     ) {
@@ -161,7 +144,7 @@ const HOMEPAGE_CONTENT_QUERY = gql`
       }
     }
     featuredCollections: collections(
-      first: 5
+      first: 4
       query: "collection_type:smart"
       sortKey: UPDATED_AT
     ) {
@@ -193,3 +176,5 @@ const HOMEPAGE_SEO_QUERY = gql`
     }
   }
 `;
+
+  

@@ -44,6 +44,7 @@ export function FooterMenu({menu}) {
                             key={subItem.id}
                             to={subItem.to}
                             target={subItem.target}
+                            arse={'arse'}
                           >
                             {subItem.title}
                           </Link>

@@ -19,6 +19,11 @@ module.exports = {
         contrast: withOpacityValue('--color-contrast'),
         notice: withOpacityValue('--color-accent'),
         shopPay: 'var(--color-shop-pay)',
+        
+      },
+      backgroundImage: {
+        'hero-location': "url('src/assets/imgages/location.jpg')",
+        
       },
       screens: {
         sm: '32em',

@@ -46,7 +46,7 @@ export function ProductGallery({media, className}) {
             };
             break;
           case 'EXTERNAL_VIDEO':
-            mediaProps = {width: '100%'};
+            mediaProps = {width: '100%',autoPlay: true,};
             break;
           case 'MODEL_3D':
             mediaProps = {
@@ -70,6 +70,7 @@ export function ProductGallery({media, className}) {
         ].join(' ');
 
         return (
+          
           <div
             className={style}
             // @ts-ignore
@@ -79,6 +80,7 @@ export function ProductGallery({media, className}) {
               tabIndex="0"
               className={`w-full h-full aspect-square fadeIn object-cover`}
               data={data}
+              
               sizes={
                 isFullWidth
                   ? '(min-width: 64em) 60vw, (min-width: 48em) 50vw, 90vw'
@@ -91,7 +93,9 @@ export function ProductGallery({media, className}) {
               }}
               {...mediaProps}
             />
+            
           </div>
+          
         );
       })}
     </div>

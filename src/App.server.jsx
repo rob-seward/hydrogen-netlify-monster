@@ -12,6 +12,7 @@ import {
 } from '@shopify/hydrogen';
 import {HeaderFallback, EventsListener} from '~/components';
 import {DefaultSeo, NotFound} from '~/components/index.server';
+import { OpeningTimes } from './components/index';
 
 function App({request}) {
   const pathname = new URL(request.normalizedUrl).pathname;
@@ -32,6 +33,7 @@ function App({request}) {
             <FileRoutes
               basePath={countryCode ? `/${countryCode}/` : undefined}
             />
+            	<Route path="newpage" page={<NewPage />} />
             <Route path="*" page={<NotFound />} />
           </Router>
         </CartProvider>
@@ -43,4 +45,7 @@ function App({request}) {
   );
 }
 
+function NewPage() {
+  return <h1>NewPage</h1>;
+}
 export default renderHydrogen(App);

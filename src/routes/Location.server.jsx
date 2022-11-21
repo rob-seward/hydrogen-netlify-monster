@@ -1,3 +1,4 @@
+
 import {Suspense} from 'react';
 import {
   CacheLong,
@@ -11,13 +12,11 @@ import {
 
 import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
 import {getHeroPlaceholder} from '~/lib/placeholders';
-import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, HomeNYBanner, HomeGeInSplitBanner} from '~/components';
-import {FooterBanner} from '~/components/global';
+import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, CollectionBanner} from '~/components';
 
 import {Layout, ProductSwimlane} from '~/components/index.server';
-import { HomeGetInSplitBanner } from '../components/index';
 
-export default function Homepage() {
+export default function Location() {
   useServerAnalytics({
     shopify: {
       pageType: ShopifyAnalyticsConstants.pageType.home,
@@ -30,13 +29,13 @@ export default function Homepage() {
         <SeoForHomepage />
       </Suspense>
       <Suspense>
-        <HomepageContent />
+        <WerehereContent />
       </Suspense>
     </Layout>
   );
 }
 
-function HomepageContent() {
+function WerehereContent() {
   const {
     language: {isoCode: languageCode},
     country: {isoCode: countryCode},
@@ -57,29 +56,55 @@ function HomepageContent() {
   const [primaryHero, secondaryHero, tertiaryHero] = getHeroPlaceholder(
     heroBanners.nodes,
   );
+  
+  const faqs = [
+    {
+      question: 'How do you make holy water?',
+      answer:
+        'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+    },];
 
   return (
     <>
-   <HomeNYBanner />
-   <StrapLine />
-    <HomeSplitBanner top loading="eager"/>
-  
-    
-    
-   
-    
-      
-        <FeaturedCollections
-        data={featuredCollections.nodes}
-        title="Collections"
-      />
-      <SelectionBoxes />
-      <HomeGetInSplitBanner />
-      <ProductSwimlane
-        data={featuredProducts.nodes}
-        title="Featured Products"
-        divider="bottom"
-      />
+<div className="bg-gray-50 pt-12 sm:pt-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Location
+            </h2>
+            <p className="mt-3 text-xl text-gray-500 sm:mt-4">
+            Find us on Gloucester Road by the Royal Oak pub, BS7 8TN  
+            </p>
+          </div>
+        </div>
+        <div className="mt-10 bg-white ">
+          <div className="relative">
+            <div className="absolute inset-0 h-3/4 bg-gray-50" />
+            <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="mx-auto max-w-4xl">
+                <dl className="rounded-lg bg-white shadow-lg ">
+                  
+                  
+                  <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
+                    
+                    <img
+            className="h-full w-full object-cover"
+            src="src/assets/images/location.jpg"
+            alt=""
+          />
+          
+                    
+                  </div>
+                  
+                </dl>
+               
+              </div>
+             
+            </div>
+            <StrapLine />
+          </div>
+        </div>
+      </div>
       
     
       
@@ -130,7 +155,7 @@ const HOMEPAGE_CONTENT_QUERY = gql`
   query homepage($country: CountryCode, $language: LanguageCode)
   @inContext(country: $country, language: $language) {
     heroBanners: collections(
-      first: 6
+      first: 4
       query: "collection_type:custom"
       sortKey: UPDATED_AT
     ) {
@@ -161,7 +186,7 @@ const HOMEPAGE_CONTENT_QUERY = gql`
       }
     }
     featuredCollections: collections(
-      first: 5
+      first: 4
       query: "collection_type:smart"
       sortKey: UPDATED_AT
     ) {
@@ -193,3 +218,5 @@ const HOMEPAGE_SEO_QUERY = gql`
     }
   }
 `;
+
+  

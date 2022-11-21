@@ -104,8 +104,8 @@ function MobileHeader({countryCode, title, isHome, openCart, openMenu}) {
         className="flex items-center self-stretch leading-[3rem] md:leading-[4rem] justify-center flex-grow w-full h-full"
         to="/"
       >
-        <Heading className="font-bold text-center" as={isHome ? 'h1' : 'h2'}>
-          Monster Pages here
+        <Heading className=" leading-5 font-bold text-center" as={isHome ? 'h1' : 'h2'}>
+          {title}
         </Heading>
       </Link>
 
@@ -143,6 +143,7 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
         <Link className={`font-bold`} to="/">
           {title}
         </Link>
+       
         <nav className="flex gap-8">
           {/* Top level menu items */}
           {(menu?.items || []).map((item) => (

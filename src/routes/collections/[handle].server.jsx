@@ -11,6 +11,7 @@ import {
 import {PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
 import {PageHeader, ProductGrid, Section, Text} from '~/components';
 import {NotFound, Layout} from '~/components/index.server';
+import {CollectionBanner} from '~/components/sections';
 
 const pageBy = 48;
 
@@ -50,13 +51,25 @@ export default function Collection({params}) {
       <Suspense>
         <Seo type="collection" data={collection} />
       </Suspense>
-      <PageHeader heading={collection.title}>
+      
+      <PageHeader >
         {collection?.description && (
           <div className="flex items-baseline justify-between w-full">
             <div>
-              <Text format width="narrow" as="p" className="inline-block">
-                {collection.description}
-              </Text>
+              
+              
+              <div className="touch-auto rounded-lg bg-gradient-to-r from-fuchsia-800 via-violet-800 to-fuchsia-500">
+      <div className="mx-auto max-w-none py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <h1 className="block">{collection.title}</h1>
+         
+        </h2>
+        <p className="mt-4 text-lg leading-6 text-indigo-200">
+        {collection.description}
+        </p>
+       
+      </div>
+    </div>
             </div>
           </div>
         )}
