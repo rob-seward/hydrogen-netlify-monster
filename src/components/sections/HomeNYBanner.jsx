@@ -1,11 +1,16 @@
+import crowd from '../../assets/images/display-crowd.jpg';
+import {Image} from '@shopify/hydrogen';
+
 export function HomeNYBanner() {
     return (
       <div className="relative bg-indigo-800">
         <div className="absolute inset-0">
-          <img
+          <Image
             className="h-full w-full object-cover"
-            src="src/assets/images/display-crowd.jpg"
-            alt=""
+            width="20"
+            height="20"
+            src={crowd}
+            alt="firework display crowd watching"
           />
           <div className="absolute inset-0 bg-indigo-800 mix-blend-multiply" aria-hidden="true" />
         </div>
