@@ -18,7 +18,7 @@ export function OpeningTimes() {
               <div className="mx-auto max-w-4xl">
                 <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
                   <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Tuesday 10am - 5pm</dt>
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Closed</dt>
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">27th Dec</dd>
                   </div>
                   <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
@@ -30,11 +30,11 @@ export function OpeningTimes() {
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">29th Dec</dd>
                   </div>
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Fruday 10am - 5pm</dt>
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Friday 10am - 5pm</dt>
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">30th Dec</dd>
                   </div>
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500"> 10am - 5pm</dt>
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500"> Late</dt>
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">31st Dec</dd>
                   </div>
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">

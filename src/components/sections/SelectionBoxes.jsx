@@ -71,7 +71,7 @@ const bronzeFeatures = ['12 Items', '8 metres', '1.4g'];
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
                           <a
-                            href="#"
+                            href="/products/gold?title=default%2520title"
                             className="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-hobby"
                           >

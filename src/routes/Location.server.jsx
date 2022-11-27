@@ -91,10 +91,10 @@ function WerehereContent() {
                     <Image
                     width="10"
                     height="10"
-            className="h-full w-full object-cover"
-            src={loco}
-            alt="Monster Fireworks shop location map"
-          />
+                    className="h-full w-full object-cover"
+                    src={loco}
+                    alt="Monster Fireworks shop location map"
+                    />
           
                     
                   </div>
