@@ -1,4 +1,5 @@
-
+import loco from '../assets/images/location.jpg';
+import {Image} from '@shopify/hydrogen';
 import {Suspense} from 'react';
 import {
   CacheLong,
@@ -87,10 +88,12 @@ function WerehereContent() {
                   
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
                     
-                    <img
+                    <Image
+                    width="10"
+                    height="10"
             className="h-full w-full object-cover"
-            src="src/assets/images/location.jpg"
-            alt=""
+            src={loco}
+            alt="Monster Fireworks shop location map"
           />
           
                     

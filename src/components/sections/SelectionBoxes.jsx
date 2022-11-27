@@ -1,5 +1,9 @@
 
+import monster from '../../assets/images/monster.png';
+import bronze from '../../assets/images/kb-bronze.jpg';
+import gold from '../../assets/images/kb-gold.jpg';
 
+import {Image} from '@shopify/hydrogen';
 
 
 export function SelectionBoxes() {
@@ -46,10 +50,12 @@ const bronzeFeatures = ['12 Items', '8 metres', '1.4g'];
                       </div>
                       
                     </div>
-                    <img
+                    <Image
+                    width="10"
+                    height="10"
           className="h-full w-full object-cover"
-          src="src/assets/images/kb-gold.jpg"
-          alt=""
+          src={gold}
+          alt="Kimbolton gold selection box"
         />
                     <div className="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
                     <ul role="list" className="space-y-4">
@@ -108,10 +114,12 @@ const bronzeFeatures = ['12 Items', '8 metres', '1.4g'];
                       
                     </div>
                   </div>
-                  <img
+                  <Image
+                  width="10"
+                  height="10"
                     className="h-full w-full object-cover"
-                    src="src/assets/images/monster.png"
-                    alt=""
+                    src={monster}
+                    alt="Monster Fireworks monster selection"
                     />
                   <div className="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
                   <ul role="list" className="space-y-4">
@@ -155,10 +163,12 @@ const bronzeFeatures = ['12 Items', '8 metres', '1.4g'];
                         </div>
                       </div>
                     </div>
-                    <img
+                    <Image
+                    width="10"
+                    height="10"
                         className="h-full w-full object-cover"
-                        src="src/assets/images/kb-bronze.jpg"
-                        alt=""
+                        src={bronze}
+                        alt="Kimbolton Bronze selection box"
                         />
                     <div className="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
                     <ul role="list" className="space-y-4">

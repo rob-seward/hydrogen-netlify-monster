@@ -1,13 +1,16 @@
-
+import shop from '../../assets/images/ShopFront.png';
+import {Image} from '@shopify/hydrogen';
 
 export function HomeSplitBanner() {
   return (
     <div className="relative bg-gradient-to-r from-fuchsia-800 via-violet-800 to-fuchsia-500">
       <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-        <img
+        <Image
+        width="10"
+        height="10"
           className="h-full w-full object-cover"
-          src="src/assets/images/ShopFront.png"
-          alt=""
+          src={shop}
+          alt="Monster fireworks shop front"
         />
       </div>
       <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">

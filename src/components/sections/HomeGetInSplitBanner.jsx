@@ -1,13 +1,16 @@
-
+import getin from '../../assets/images/homeGetin.png';
+import {Image} from '@shopify/hydrogen';
 
 export function HomeGetInSplitBanner() {
   return (
     <div className="relative bg-gradient-to-r from-fuchsia-800 via-violet-800 to-fuchsia-500">
       <div className="h-56 bg-gray-900 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-        <img
+        <Image
+        width="10"
+        height="10"
           className="h-full w-full object-cover"
-          src="src/assets/images/homeGetin.png"
-          alt=""
+          src={getin}
+          alt="Kimbolton getin 96 shot single ignition"
         />
       </div>
       <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
