@@ -136,7 +136,7 @@ export function ProductForm() {
             )}
           </Button>
         </AddToCartButton>
-        {!isOutOfStock && <ShopPayButton variantIds={[selectedVariant.id]} />}
+        
       </div>
     </form>
   );
