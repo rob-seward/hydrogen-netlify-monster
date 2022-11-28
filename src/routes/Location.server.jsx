@@ -1,5 +1,5 @@
 import loco from '../assets/images/location.jpg';
-import {Image} from '@shopify/hydrogen';
+
 import {Suspense} from 'react';
 import {
   CacheLong,
@@ -9,6 +9,7 @@ import {
   useServerAnalytics,
   useLocalization,
   useShopQuery,
+  Image,
 } from '@shopify/hydrogen';
 
 import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
@@ -58,12 +59,7 @@ function WerehereContent() {
     heroBanners.nodes,
   );
   
-  const faqs = [
-    {
-      question: 'How do you make holy water?',
-      answer:
-        'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
-    },];
+  
 
   return (
     <>
@@ -89,8 +85,8 @@ function WerehereContent() {
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
                     
                     <Image
-                    width="10"
-                    height="10"
+                    width="40"
+                    height="25"
                     className="h-full w-full object-cover"
                     src={loco}
                     alt="Monster Fireworks shop location map"

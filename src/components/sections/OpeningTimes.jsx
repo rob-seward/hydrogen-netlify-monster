@@ -7,7 +7,7 @@ export function OpeningTimes() {
               Opening Times
             </h2>
             <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-            Order now for New Year and collect your fireworks from the Shop between 27th - 31st of December
+            Order now for New Year and collect your fireworks from the Shop between 28th - 31st of December
             </p>
           </div>
         </div>

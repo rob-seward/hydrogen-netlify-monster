@@ -135,7 +135,7 @@ const bronzeFeatures = ['12 Items', '8 metres', '1.4g'];
                     <div className="mt-10">
                       <div className="rounded-lg shadow-md">
                         <a
-                          href="#"
+                          href="/products/monster-selection?title=default%2520title"
                           className="block w-full rounded-lg border border-transparent bg-violet-800 px-6 py-4 text-center text-xl font-medium leading-6 text-white hover:bg-violet-700"
                           aria-describedby="tier-growth"
                         >
@@ -186,7 +186,7 @@ const bronzeFeatures = ['12 Items', '8 metres', '1.4g'];
                           
                         <div className="rounded-lg shadow-md">
                           <a
-                            href="#"
+                            href="/products/bronze?title=default%2520title"
                             className="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-scale"
                           >
