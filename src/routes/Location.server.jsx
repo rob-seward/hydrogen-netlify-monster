@@ -85,8 +85,8 @@ function WerehereContent() {
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
                     
                     <Image
-                    width="40"
-                    height="25"
+                    width="20"
+                    height="5"
                     className="h-full w-full object-cover"
                     src={loco}
                     alt="Monster Fireworks shop location map"
@@ -100,12 +100,12 @@ function WerehereContent() {
               </div>
              
             </div>
-            <StrapLine />
+           
           </div>
         </div>
       </div>
       
-    
+      <StrapLine />
       
     </>
   );
@@ -128,7 +128,7 @@ function SeoForHomepage() {
       data={{
         title: name,
         description,
-        titleTemplate: '%s · Powered by Hydrogen',
+        titleTemplate: '%s - Location Bristol',
       }}
     />
   );

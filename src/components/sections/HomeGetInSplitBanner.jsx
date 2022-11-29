@@ -18,9 +18,9 @@ export function HomeGetInSplitBanner() {
         <div className="md:ml-auto md:w-1/2 md:pl-10">
           
           <h2 className="text-lg font-semibold text-gray-300">Kimbolton</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">GetIn!</p>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Get In! Single Iginition</p>
           <p className="mt-3 text-lg text-gray-300">
-            96 Shot Finale Display Single Ignition
+            96 Shot 1.3g pattern firing with finale
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">

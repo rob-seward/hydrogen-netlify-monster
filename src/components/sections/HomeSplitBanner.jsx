@@ -18,7 +18,7 @@ export function HomeSplitBanner() {
           <h2 className="text-lg font-semibold text-gray-300">New Years 2022</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">ORDER NOW</p>
           <p className="mt-3 text-lg text-gray-300">
-            Collect from the shop between 27th - 30th December
+            Collect from the shop between 28th - 30th December
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
