@@ -1,4 +1,4 @@
-import loco from 'src/assets/location.jpg';
+import loco from 'src/assets/images/location.jpg';
 
 import {Suspense} from 'react';
 import {
