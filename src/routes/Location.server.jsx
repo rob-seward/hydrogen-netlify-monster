@@ -1,15 +1,16 @@
-import loco from '../assets/images/location.jpg';
+import loco from '../src/assets/images/location.jpg';
 
 import {Suspense} from 'react';
 import {
   CacheLong,
   gql,
+  Image,
   Seo,
   ShopifyAnalyticsConstants,
   useServerAnalytics,
   useLocalization,
   useShopQuery,
-  Image,
+ 
 } from '@shopify/hydrogen';
 
 import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
