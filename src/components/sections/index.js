@@ -9,3 +9,4 @@ export {SelectionBoxes} from './SelectionBoxes';
 export {CollectionBanner} from './CollectionBanner';
 export {OpeningTimes} from './OpeningTimes';
 export {HomeNYBanner} from './HomeNYBanner';
+export {LocationMap} from './LocationMap';

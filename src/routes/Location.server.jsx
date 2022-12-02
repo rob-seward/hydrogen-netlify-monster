@@ -1,4 +1,4 @@
-import loco from '../assets/images/location.jpg';
+
 
 import {Suspense} from 'react';
 import {
@@ -15,7 +15,7 @@ import {
 
 import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
 import {getHeroPlaceholder} from '~/lib/placeholders';
-import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, CollectionBanner} from '~/components';
+import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, CollectionBanner, LocationMap} from '~/components';
 
 import {Layout, ProductSwimlane} from '~/components/index.server';
 
@@ -33,6 +33,8 @@ export default function Location() {
       </Suspense>
       <Suspense>
         <WerehereContent />
+       
+        
       </Suspense>
     </Layout>
   );
@@ -85,13 +87,7 @@ function WerehereContent() {
                   
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
                     
-                    <Image
-                    width="20"
-                    height="5"
-                    className="h-full w-full object-cover"
-                    src={loco}
-                    alt="Monster Fireworks shop location map"
-                    />
+                  <LocationMap />
           
                     
                   </div>
