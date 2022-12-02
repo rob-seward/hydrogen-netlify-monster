@@ -4,7 +4,6 @@ import {Suspense} from 'react';
 import {
   CacheLong,
   gql,
-  Image,
   Seo,
   ShopifyAnalyticsConstants,
   useServerAnalytics,

@@ -1,4 +1,4 @@
-import shoploco from "../../assets/images/location.jpg"
+import shoploco from "../../assets/images/location.jpg";
 import {Image} from '@shopify/hydrogen';
 
 
@@ -12,7 +12,7 @@ export function LocationMap() {
     src={shoploco}
     height="7"
     width="20"
-    props={props}
+    
     
     />
     </div>
