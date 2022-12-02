@@ -12,6 +12,7 @@ export function LocationMap() {
     src={shoploco}
     height="7"
     width="20"
+    props={props}
     
     />
     </div>
