@@ -11,7 +11,7 @@ import {
 
 import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
 import {getHeroPlaceholder} from '~/lib/placeholders';
-import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, HomeNYBanner, HomeGeInSplitBanner} from '~/components';
+import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, HomeNYBanner, HomeGeInSplitBanner, AllFireworksBanner, Sparklers} from '~/components';
 import {FooterBanner} from '~/components/global';
 
 import {Layout, ProductSwimlane} from '~/components/index.server';
@@ -61,28 +61,22 @@ function HomepageContent() {
   return (
     <>
    <HomeNYBanner />
-   <StrapLine />
+    <StrapLine />
     <HomeSplitBanner top loading="eager"/>
-  
-    
-    
-   
-    
-      
-        <FeaturedCollections
+      <FeaturedCollections
         data={featuredCollections.nodes}
         title="Collections"
       />
-      <SelectionBoxes />
-      <HomeGetInSplitBanner />
-      <ProductSwimlane
-        data={featuredProducts.nodes}
-        title="Featured Products"
-        divider="bottom"
-      />
-      
-    
-      
+      <AllFireworksBanner />
+      <Sparklers />
+          <SelectionBoxes />
+         
+           <HomeGetInSplitBanner />
+             <ProductSwimlane
+              data={featuredProducts.nodes}
+              title="Featured Products"
+              divider="bottom"
+             />
     </>
   );
 }

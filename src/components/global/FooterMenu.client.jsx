@@ -42,7 +42,7 @@ export function FooterMenu({menu}) {
                         {item.items.map((subItem) => (
                           <Link
                             key={subItem.id}
-                            to={subItem.to}
+                            to="/openingtimes"
                             target={subItem.target}
                             arse={'arse'}
                           >
