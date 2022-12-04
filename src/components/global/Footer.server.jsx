@@ -37,24 +37,26 @@ export function Footer({menu}) {
       
       <FooterMenu menu={menu} />
       
-      <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
+      <section className="grid self-start w-full md:max-w-[335px] md:ml-auto">
       
-        <Heading size="lead" className="font-normal pt-8 opacity-50 md:col-span-2" as="h3">
+        <Heading  size="lead" className="self-end font-normal pt-8 opacity-50 md:col-span-4"  as="h3">
           0772 4107641
         </Heading>
-        <Heading size="lead" className="font-normal pt-8 opacity-50 md:col-span-2" as="h3">
+        <Heading size="lead" className="font-normal pt-1 opacity-50 md:col-span-2" as="p">
         379c Gloucester Road, Horfield, Bristol, BS7 8TN
         
         </Heading>
         
       </section>
       <div
-        className={`self-end pt-8 opacity-50 md:col-span-2 lg:col-span-${itemsCount}`}
+        className={`self-end pt-8 opacity-50 md:col-span-4 lg:col-span-${itemsCount}`}
       >
+        <div className="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between"></div>
         &copy; {new Date().getFullYear()} / Shopify, Inc. Hydrogen is an MIT
         Licensed Open Source project. This website is carbon&nbsp;neutral.
       </div>
     </Section>
+    
     </>
     
   );

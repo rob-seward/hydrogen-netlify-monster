@@ -4,60 +4,36 @@ import {Link} from '@shopify/hydrogen';
 
 import {Heading, IconCaret} from '~/components';
 
-/**
- * A server component that specifies the content of the footer on the website
- */
-export function FooterMenu({menu}) {
+const navigation = {
+  solutions: [
+    { name: 'Opening Times', href: '/openingtimes' },
+    { name: 'Terms & Conditions', href: '/terms' },
+    { name: 'FAQ', href: '/faq' },
+  ],
+
+}
+  
+export function FooterMenu() {
   const styles = {
     section: 'grid gap-4',
     nav: 'grid gap-2 pb-6',
   };
-
-  return (
-    <>
-      {(menu?.items || []).map((item) => (
-        <section key={item.id} className={styles.section}>
-          <Disclosure>
-            {/* @ts-expect-error @headlessui/react incompatibility with node16 resolution */}
-            {({open}) => (
-              <>
-                <Disclosure.Button className="text-left md:cursor-default">
-                  <Heading className="flex justify-between" size="lead" as="h3">
-                    {item.title}
-                    {item?.items?.length > 0 && (
-                      <span className="md:hidden">
-                        <IconCaret direction={open ? 'up' : 'down'} />
-                      </span>
-                    )}
-                  </Heading>
-                </Disclosure.Button>
-                {item?.items?.length > 0 && (
-                  <div
-                    className={`${
-                      open ? `max-h-48 h-fit` : `max-h-0 md:max-h-fit`
-                    } overflow-hidden transition-all duration-300`}
-                  >
-                    <Disclosure.Panel static>
-                      <nav className={styles.nav}>
-                        {item.items.map((subItem) => (
-                          <Link
-                            key={subItem.id}
-                            to="/openingtimes"
-                            target={subItem.target}
-                            arse={'arse'}
-                          >
-                            {subItem.title}
-                          </Link>
-                        ))}
-                      </nav>
-                    </Disclosure.Panel>
-                  </div>
-                )}
-              </>
-            )}
-          </Disclosure>
-        </section>
-      ))}{' '}
-    </>
+ return (
+  <>
+  <section className={styles.section}>
+  <ul role="list" className="flex justify-between">
+    {navigation.solutions.map((item) => (
+      <li className={styles.nav} key={item.name}>
+        <a href={item.href} className="text-base text-gray-300 hover:text-white">
+          {item.name}
+        </a>
+      </li>
+    ))}
+  </ul>
+  </section>
+  
+</>
+  
+    
   );
 }
