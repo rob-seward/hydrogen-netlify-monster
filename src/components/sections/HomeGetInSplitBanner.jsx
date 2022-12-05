@@ -21,7 +21,7 @@ export function HomeGetInSplitBanner() {
 
           <span className="flex">
             <span className="flex-none">
-            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Get In! Single Iginition</p>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Get In! 96 Shot</p>
             </span>
             <span className="flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6">
@@ -34,7 +34,7 @@ export function HomeGetInSplitBanner() {
           
 
           <p className="mt-3 text-lg text-gray-300">
-            96 Shot 1.3g pattern firing with finale
+            Single fuse display in a box
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">

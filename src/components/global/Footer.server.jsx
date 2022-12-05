@@ -37,12 +37,12 @@ export function Footer({menu}) {
       
       <FooterMenu menu={menu} />
       
-      <section className="grid self-start w-full md:max-w-[335px] md:ml-auto">
+      <section className="grid self-start w-full md:max-w-[355px] md:ml-auto">
       
         <Heading  size="lead" className="self-end font-normal pt-8 opacity-50 md:col-span-4"  as="h3">
           0772 4107641
         </Heading>
-        <Heading size="lead" className="font-normal pt-1 opacity-50 md:col-span-2" as="p">
+        <Heading size="lead" className="font-normal pt-1 opacity-50 md:col-span-3" as="p">
         379c Gloucester Road, Horfield, Bristol, BS7 8TN
         
         </Heading>
