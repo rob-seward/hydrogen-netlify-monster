@@ -9,7 +9,7 @@ import {
 
 import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
 
-import {StrapLine,OpeningTimes } from '~/components';
+import {StrapLine,OpeningTimes, NicePic } from '~/components';
 
 import {Layout} from '~/components/index.server';
 
@@ -32,6 +32,7 @@ function OpeningTimesContent() {
     <>
    <OpeningTimes />
     <StrapLine />
+    <NicePic />
     </>
   );
 }

@@ -15,7 +15,7 @@ import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, H
 import {FooterBanner} from '~/components/global';
 
 import {Layout, ProductSwimlane} from '~/components/index.server';
-import { HomeGetInSplitBanner } from '../components/index';
+import { HomeGetInSplitBanner, NicePic } from '../components/index';
 
 export default function Homepage() {
   useServerAnalytics({
@@ -69,6 +69,7 @@ function HomepageContent() {
       />
       <AllFireworksBanner />
       <Sparklers />
+      <NicePic />
           <SelectionBoxes />
          
            <HomeGetInSplitBanner />

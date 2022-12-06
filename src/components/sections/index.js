@@ -10,5 +10,8 @@ export {CollectionBanner} from './CollectionBanner';
 export {OpeningTimes} from './OpeningTimes';
 export {HomeNYBanner} from './HomeNYBanner';
 export {LocationMap} from './LocationMap';
+export {NicePic} from './NicePic';
 export {AllFireworksBanner} from './AllFireworksBanner';
 export {Sparklers} from './Sparklers';
+export {Terms} from './Terms';
+export {Faq} from './Faq';
