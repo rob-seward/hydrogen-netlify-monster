@@ -1,4 +1,4 @@
-import shop from '../../assets/images/allfireworks.png';
+import shop from '../../assets/images/ShopFront.png';
 import {Image} from '@shopify/hydrogen';
 
 export function HomeSplitBanner() {

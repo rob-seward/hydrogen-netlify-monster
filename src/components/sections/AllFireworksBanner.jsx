@@ -1,9 +1,9 @@
-import allfireworks from '../../assets/images/ShopFront.png';
+import allfireworks from '../../assets/images/allfireworks.png';
 import {Image, Link} from '@shopify/hydrogen';
 
 export function AllFireworksBanner() {
     return (
-      <div className="relative bg-indigo-800">
+      <div className="relative bg-gray-900">
         <div className="absolute inset-0">
           <Image
             className="h-full w-full object-cover"
