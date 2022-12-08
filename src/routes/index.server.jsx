@@ -11,7 +11,7 @@ import {
 
 import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
 import {getHeroPlaceholder} from '~/lib/placeholders';
-import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, HomeNYBanner, HomeGeInSplitBanner, AllFireworksBanner, Sparklers} from '~/components';
+import {FeaturedCollections, Hero, StrapLine, HomeSplitBanner, SelectionBoxes, HomeNYBanner, HomeGeInSplitBanner, AllFireworksBanner, Sparklers, SingleFuse} from '~/components';
 import {FooterBanner} from '~/components/global';
 
 import {Layout, ProductSwimlane} from '~/components/index.server';
@@ -71,7 +71,7 @@ function HomepageContent() {
       <Sparklers />
       <NicePic />
           <SelectionBoxes />
-         
+            <SingleFuse />
            <HomeGetInSplitBanner />
              <ProductSwimlane
               data={featuredProducts.nodes}

@@ -8,9 +8,10 @@ import {Image} from '@shopify/hydrogen';
 
 export function SelectionBoxes() {
 
-const monsterFeatures = ['✔️ 12 Items', '✔️ 8 metres', '✔️ 1.4g'];
-const goldFeatures = ['✔️ 23 Items', '✔️ 8 metres', '✔️ 1.4g'];
-const bronzeFeatures = ['12 Items', '8 metres', '1.4g'];
+const monsterFeatures = ['✔️ 12 Items', '✔️ 8 metres'];
+const goldFeatures = ['✔️ 23 Items', '✔️ 8 metres'];
+const bronzeFeatures = ['12 Items', '8 metres'];
+
 
   return (
     <div className="bg-gray-900">
