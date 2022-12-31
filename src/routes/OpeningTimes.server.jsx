@@ -32,7 +32,7 @@ function OpeningTimesContent() {
     <>
    <OpeningTimes />
     <StrapLine />
-    <NicePic />
+   
     </>
   );
 }

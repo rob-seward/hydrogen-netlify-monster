@@ -9,6 +9,7 @@ const navigation = {
     { name: 'Opening Times', href: '/openingtimes' },
     { name: 'Terms & Conditions', href: '/terms' },
     { name: 'FAQ', href: '/faq' },
+   
   ],
   details: [
     { name: 'Opening Times', href: '/openingtimes' },

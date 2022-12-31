@@ -35,7 +35,7 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Collect from 28th - 31st December
+            Online ordering has now finished but you can still buy fireworks at the shop
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
