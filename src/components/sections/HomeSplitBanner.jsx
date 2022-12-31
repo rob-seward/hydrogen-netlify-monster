@@ -35,7 +35,7 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Online ordering has now finished but you can still buy fireworks at the shop
+            We are now closed - Happy New Year!
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
