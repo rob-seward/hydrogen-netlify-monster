@@ -43,7 +43,7 @@ const bronzeFeatures = ['12 Items', '8 metres'];
                         <div className="mt-4 flex items-center justify-center">
                           <span className="flex items-start px-3 text-6xl tracking-tight text-gray-900">
                             <span className="mt-2 mr-2 text-4xl font-medium tracking-tight">£</span>
-                            <span className="font-bold">50</span>
+                            <span className="font-bold">55</span>
                           </span>
                           
                         </div>

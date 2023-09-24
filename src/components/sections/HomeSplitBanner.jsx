@@ -35,7 +35,7 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Pre order available from October for Bonfire 2003
+            Pre order available from October for Bonfire 2023
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
