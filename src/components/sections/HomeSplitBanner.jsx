@@ -35,7 +35,7 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Collection available from Saturday 28th October
+            Collection available from Saturday 28th October - 5th November
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
