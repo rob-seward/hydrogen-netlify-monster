@@ -71,7 +71,7 @@ function HomepageContent() {
       <Sparklers />
       <NicePic />
           <SelectionBoxes />
-            <SingleFuse />
+          <SingleFuse />
            <HomeGetInSplitBanner />
              <ProductSwimlane
               data={featuredProducts.nodes}

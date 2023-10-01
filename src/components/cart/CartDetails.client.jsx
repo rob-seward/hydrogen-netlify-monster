@@ -74,12 +74,13 @@ function CartCheckoutActions() {
             </Button>
           </Link>
         ) : null}
-        <CartShopPayButton />
+        
       </div>
     </>
   );
 }
 
+// <CartShopPayButton /> goes on line 77 after ) : null} and between the div
 function OrderSummary() {
   const {cost} = useCart();
   return (
