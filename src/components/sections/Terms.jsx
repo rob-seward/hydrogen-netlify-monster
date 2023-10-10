@@ -32,7 +32,7 @@ const faqs = [
     {
         id: 7,
       answer:
-        "Payment is non-refundable in the event of failure to collect an order between 28th December - December 31st until 5pm 2022.",
+        "Payment is non-refundable in the event of failure to collect an order before 4pm November 5th 2023.",
     },
     {
         id: 8,

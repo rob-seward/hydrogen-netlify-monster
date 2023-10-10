@@ -46,8 +46,7 @@ const faqs = [
           <div className="lg:mx-auto lg:max-w-2xl lg:text-center">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Frequently asked questions</h2>
             <p className="mt-4 text-gray-400">
-              Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
-              Urna, sed a lectus elementum blandit et.
+              
             </p>
           </div>
           <div className="mt-20">
