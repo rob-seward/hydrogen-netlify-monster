@@ -10,7 +10,7 @@ export function SelectionBoxes() {
 
 const monsterFeatures = ['✔️ 12 Items', '✔️ 8 metres'];
 const goldFeatures = ['✔️ 23 Items', '✔️ 8 metres'];
-const bronzeFeatures = ['12 Items', '8 metres'];
+const bronzeFeatures = ['✔️ 12 Items', '✔️ 8 metres'];
 
 
   return (
@@ -173,7 +173,7 @@ const bronzeFeatures = ['12 Items', '8 metres'];
                         />
                     <div className="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
                     <ul role="list" className="space-y-4">
-                        {goldFeatures.map((feature) => (
+                        {bronzeFeatures.map((feature) => (
                           <li key={feature} className="flex items-start">
                             <div className="flex-shrink-0">
                              
