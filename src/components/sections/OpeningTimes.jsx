@@ -32,7 +32,7 @@ export function OpeningTimes() {
               
                 
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sat 10am - 6pm</dt>
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sat 9am - 6pm</dt>
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">30st Dec</dd>
                   </div>
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
