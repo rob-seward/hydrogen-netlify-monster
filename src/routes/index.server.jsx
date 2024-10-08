@@ -156,7 +156,7 @@ const HOMEPAGE_CONTENT_QUERY = gql`
       }
     }
     featuredCollections: collections(
-      first: 5
+      first: 6
       query: "collection_type:smart"
       sortKey: UPDATED_AT
     ) {
