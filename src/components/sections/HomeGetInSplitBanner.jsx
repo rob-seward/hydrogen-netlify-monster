@@ -1,4 +1,4 @@
-import getin from '../../assets/images/homeGetin.png';
+import getin from '../../assets/images/icarus-sun.jpg';
 import {Image} from '@shopify/hydrogen';
 
 export function HomeGetInSplitBanner() {
@@ -21,7 +21,7 @@ export function HomeGetInSplitBanner() {
 
           <span className="flex">
             <span className="flex-none">
-            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Get In! 96 Shot</p>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Icarus Sun 130 Shot</p>
             </span>
             <span className="flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6">
@@ -39,7 +39,7 @@ export function HomeGetInSplitBanner() {
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="products/get-in?title=default%2520title"
+                href="products/icarus-sun?title=default%2520title"
                 className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
               >
                 Play video
