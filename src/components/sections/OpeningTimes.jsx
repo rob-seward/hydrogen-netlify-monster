@@ -22,12 +22,24 @@ export function OpeningTimes() {
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">26th Oct</dd>
                   </div>
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sun Closed</dt>
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sun 11am - 3pm</dt>
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">27th Oct</dd>
                   </div>
                   <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Mon 10am - 5pm</dt>
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">28th Oct</dd>
+                  </div>
+                  <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Tue 10am - 5pm</dt>
+                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">29th Oct</dd>
+                  </div>
+                  <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Wed Closed</dt>
+                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">30th Oct</dd>
+                  </div>
+                  <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Thur 10am - 5pm</dt>
+                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">31stth Oct</dd>
                   </div>
 
                   <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
