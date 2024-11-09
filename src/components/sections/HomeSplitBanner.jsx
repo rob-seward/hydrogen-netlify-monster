@@ -35,7 +35,10 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Collect from shop before Nov 5th
+            Bonfire online orders now closed
+          </p>
+          <p className="mt-3 text-lg text-gray-300">
+            open December for New Years Eve
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
