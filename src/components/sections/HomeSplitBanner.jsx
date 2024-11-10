@@ -21,7 +21,7 @@ export function HomeSplitBanner() {
 
 <span className="flex">
 <span className="flex-none">
-<p className=" mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">ORDER ONLINE</p>
+<p className=" mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">PRE ORDER ONLINE</p>
 </span>
 
 <span className="flex-none">
@@ -35,10 +35,10 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Bonfire online orders now closed
+            Online orders from 1st December
           </p>
           <p className="mt-3 text-lg text-gray-300">
-            open December for New Years Eve
+            collect from 27th December
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
