@@ -7,7 +7,7 @@ export function OpeningTimes() {
               Opening Times
             </h2>
             <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-            Pre order online available from October 1st and collect your fireworks from October 26th
+            Order your New Years fireworks now and collect from our shop on or after teh 28th December
             </p>
           </div>
         </div>
