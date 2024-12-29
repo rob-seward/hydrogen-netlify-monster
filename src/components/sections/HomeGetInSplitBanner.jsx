@@ -1,4 +1,4 @@
-import getin from '../../assets/images/Apostles-Creed-2024.webp';
+import getin from '../../assets/images/Glim.jpg';
 import {Image} from '@shopify/hydrogen';
 
 export function HomeGetInSplitBanner() {
