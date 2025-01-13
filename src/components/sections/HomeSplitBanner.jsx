@@ -35,7 +35,7 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Shop is open until 6pm for NYE
+            Opens November 2025 for Bonfire
           </p>
           
           <div className="mt-8">
