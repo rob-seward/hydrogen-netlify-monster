@@ -1,4 +1,4 @@
-import getin from '../../assets/images/kbgettheglory.jpg';
+import getin from '../../assets/images/kbgettheglory.png';
 import {Image} from '@shopify/hydrogen';
 
 export function HomeGetInSplitBanner() {
