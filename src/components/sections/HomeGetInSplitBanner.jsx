@@ -1,4 +1,4 @@
-import getin from '../../assets/images/Glim.jpg';
+import getin from '../../assets/images/kbgettheglory.jpg';
 import {Image} from '@shopify/hydrogen';
 
 export function HomeGetInSplitBanner() {
@@ -17,11 +17,11 @@ export function HomeGetInSplitBanner() {
       
         <div className="md:ml-auto md:w-1/2 md:pl-10">
           
-          <h2 className="text-lg font-semibold text-gray-300">Celtic</h2>
+          <h2 className="text-lg font-semibold text-gray-300">NEW for 2025</h2>
 
           <span className="flex">
             <span className="flex-none">
-            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Glimmer Glamour 100 shot</p>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Get the glory!</p>
             </span>
             <span className="flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6">
@@ -34,12 +34,12 @@ export function HomeGetInSplitBanner() {
           
 
           <p className="mt-3 text-lg text-gray-300">
-            Single fuse £60
+            Single fuse £100 rrp £149.99
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="https://monsterfireworks.co.uk/products/glimmer-glamour?title=default%2520title"
+                href="https://monsterfireworks.co.uk/products/get-the-glory?title=default%2520title"
                 className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
               >
                 Play video
