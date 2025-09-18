@@ -17,7 +17,7 @@ export function HomeGetInSplitBanner() {
       
         <div className="md:ml-auto md:w-1/2 md:pl-10">
           
-          <h2 className="text-lg font-semibold text-gray-300">NEW for 2025</h2>
+          <h2 className="text-lg font-semibold text-gray-300">NEW for Bonfire 2025</h2>
 
           <span className="flex">
             <span className="flex-none">
