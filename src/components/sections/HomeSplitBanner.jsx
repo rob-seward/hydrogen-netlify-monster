@@ -21,7 +21,7 @@ export function HomeSplitBanner() {
 
 <span className="flex">
 <span className="flex-none">
-<p className=" mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">ORDER LINE CLOSED </p>
+<p className=" mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">ORDER ONLINE NOW </p>
 </span>
 
 <span className="flex-none">
@@ -35,7 +35,7 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Opens November 2025 for Bonfire
+            Collect on Sat 25th Oct or from 31st Oct - 8th Novmber
           </p>
           
           <div className="mt-8">
