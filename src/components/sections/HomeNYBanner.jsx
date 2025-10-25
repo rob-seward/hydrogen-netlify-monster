@@ -15,7 +15,7 @@ export function HomeNYBanner() {
           <div className="absolute inset-0 bg-indigo-800 mix-blend-multiply" aria-hidden="true" />
         </div>
         <div className="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold tracking-tight text-white text-center sm:text-4xl lg:text-6xl">Open Saturday 25th Oct and from 31st - 8th November Bonfire</h2>
+          <h2 className="text-4xl font-bold tracking-tight text-white text-center sm:text-4xl lg:text-6xl">Open Sunday 26th Oct 10am - 3pm/h2>
          
         </div>
       </div>
