@@ -38,7 +38,7 @@ export function OpeningTimes() {
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">31st Oct & 1st Nov</dd>
                   </div>
                   <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sun 10am - 4pm</dt>
+                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sun 11am - 3pm</dt>
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">2nd Nov</dd>
                   </div> 
                   <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
