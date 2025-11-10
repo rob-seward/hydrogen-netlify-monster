@@ -35,7 +35,7 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Collect from shop until 8th Nov
+            Shop collection after Boxing day 27th
           </p>
           
           <div className="mt-8">
