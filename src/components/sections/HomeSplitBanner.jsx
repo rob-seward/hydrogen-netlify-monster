@@ -21,7 +21,7 @@ export function HomeSplitBanner() {
 
 <span className="flex">
 <span className="flex-none">
-<p className=" mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">ORDER ONLINE NOW CLOSED</p>
+<p className=" mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">ORDER ONLINE CLOSED</p>
 </span>
 
 <span className="flex-none">
