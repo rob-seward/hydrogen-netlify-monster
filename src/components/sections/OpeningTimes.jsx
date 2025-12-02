@@ -7,7 +7,7 @@ export function OpeningTimes() {
               Opening Times
             </h2>
             <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-            Order your Bonfire fireworks now and collect Saturday 25th Oct or from 31st Oct - 8th November
+            Order your New Year fireworks now and collect Saturday 27th umtil 5pm NYE
             </p>
           </div>
         </div>
@@ -18,53 +18,25 @@ export function OpeningTimes() {
               <div className="mx-auto max-w-4xl">
                 <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
                 <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sat 10am - 5pm</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">25th Oct</dd>
-                  </div>
-                  <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sun 10am - 3pm</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">26th Oct</dd>
-                  </div>
-                  <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Mon - Thurs Closed</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">27th & 30th Oct</dd>
-                  </div>
-                  <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500"></dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600"></dd>
-                  </div>
-                  <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Fri - Sat 10am - 6pm</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">31st Oct & 1st Nov</dd>
-                  </div>
-                  <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sun 11am - 3pm</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">2nd Nov</dd>
-                  </div> 
-                  <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Mon - Tue 10am - 6pm</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">3rd & 4th Nov</dd>
-                  </div>
-                  <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Wed 9am - 7pm</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">5th Nov </dd>
-                  </div>
-                  <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Thur 10am -5pm</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">6th Nov</dd>
-                  </div> 
-                  <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Fri - Sat 10am - 6pm</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">7th & 8th Nov </dd>
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sat 10am - 6pm</dt>
+                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">27th Dec</dd>
                   </div>
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
                     <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Sun 11am - 3pm</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">9th Nov</dd>
+                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">26th Oct</dd>
                   </div>
                   <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Closed</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">10th Nov</dd>
-                  </div>                                  
+                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Mon 10am - 5pm</dt>
+                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">28th</dd>
+                  </div>
+                  <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Tues 10am - 5pm</dt>
+                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">29th</dd>
+                  </div>
+                  <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">NYE 10am - 6pm</dt>
+                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">31st</dd>
+                  </div>                                
               
                 </dl>
               </div>
