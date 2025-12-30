@@ -30,8 +30,8 @@ export function OpeningTimes() {
                     <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">28th</dd>
                   </div>
                   <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Tues 10am - 5pm</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">29th</dd>
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Tues 10am - 6pm</dt>
+                    <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">30th</dd>
                   </div>
                   <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
                     <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">NYE 10am - 6pm</dt>
