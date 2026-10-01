@@ -34,7 +34,7 @@ export function HomeGetInSplitBanner() {
           
 
           <p className="mt-3 text-lg text-gray-300">
-            Single fuse £100 rrp £149.99
+            Single fuse £110 rrp £149.99
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
