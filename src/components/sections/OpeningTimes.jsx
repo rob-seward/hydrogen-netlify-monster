@@ -7,7 +7,7 @@ export function OpeningTimes() {
               Opening Times
             </h2>
             <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-            Shop Bonfire collections from Saturday 30th Oct - Nov 7th
+            Shop Bonfire collections from Saturday 31st Oct - Nov 7th
             </p>
           </div>
         </div>
