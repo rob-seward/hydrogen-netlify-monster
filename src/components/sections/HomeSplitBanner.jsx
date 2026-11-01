@@ -21,7 +21,7 @@ export function HomeSplitBanner() {
 
 <span className="flex">
 <span className="flex-none">
-<p className=" mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">ORDER LINE OPEN</p>
+<p className=" mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">ORDER LINE CLOSED - BROKEN SHOPPING CART</p>
 </span>
 
 <span className="flex-none">
@@ -35,7 +35,7 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Shop now open for collcetions until Nov 7th
+            Please vist us at the store we have plenty of stock!
           </p>
           
           <div className="mt-8">
