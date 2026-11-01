@@ -35,7 +35,7 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Collect from shop Oct 31st - Nov 7th
+            Shop now open for collcetions until Nov 7th
           </p>
           
           <div className="mt-8">
