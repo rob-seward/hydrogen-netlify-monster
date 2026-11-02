@@ -110,13 +110,13 @@ function MobileHeader({countryCode, title, isHome, openCart, openMenu}) {
       </Link>
 
       <div className="flex items-center justify-end w-full gap-4">
-        <Link to={'/account'} className={styles.button}>
+        {/*<Link to={'/account'} className={styles.button}>
           <IconAccount />
-        </Link>
-        <button onClick={openCart} className={styles.button}>
+          </Link>*/}
+        {/*<button onClick={openCart} className={styles.button}>
           <IconBag />
           <CartBadge dark={isHome} />
-        </button>
+        </button>*/}
       </div>
     </header>
   );
