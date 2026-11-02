@@ -173,13 +173,13 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
             <IconSearch />
           </button>
         </form>
-        <Link to={'/account'} className={styles.button}>
+       {/*<Link to={'/account'} className={styles.button}>
           <IconAccount />
-        </Link>
-        <button onClick={openCart} className={styles.button}>
+          </Link>*/}
+        {/*<button onClick={openCart} className={styles.button}>
           <IconBag />
           <CartBadge dark={isHome} />
-        </button>
+        </button>*/}
       </div>
     </header>
   );
@@ -203,3 +203,7 @@ function CartBadge({dark}) {
     </div>
   );
 }
+
+/**
+ * A client component that specifies the content of the header on the website
+ */
