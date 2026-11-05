@@ -35,7 +35,7 @@ export function HomeSplitBanner() {
 </span>
           
           <p className="mt-3 text-lg text-gray-300">
-            Broken shopping cart - We have plenty of stock at the shop!
+            
           </p>
           
           <div className="mt-8">
